@@ -23,7 +23,15 @@ I use a lot of Vim plugins to customize my editor (thanks to Brian Cordonnier fo
 These are the basic steps to test my configuration, and you can play with additional plugins or turn some off from there.
 
 1. Install [Vundle](https://github.com/VundleVim/Vundle.vim "Vundle")
-    + Clone Vundle
-        ```bash
-        git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-        ```
+
+    `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+2. Copy my .vimrc file to ~/.vimrc.
+
+3. Add or remove plugins that you want to install in the .vimrc. Lines like `Plugin 'VundleVim/Vundle.vim'` define the plugins to be installed.
+
+4. Open vim and run :PluginInstall
+
+5. Alternatively from the command line run `$ vim +PluginInstall +qall`
+
+6. Restart Vim and the plugins should be active.
