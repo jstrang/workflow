@@ -8,14 +8,16 @@ Highly recommend using [iTerm](https://www.iterm2.com/ "iTerm2") instead of Term
 I'll create another file soon with bash tips, and include some tips on iTerm shortcuts and features I like to use there as well.
 
 One change I recommend making immediately is changing the scrollback to unlimited:
-    + Open iTerm Preferences
-    + Go to the Profiles tab
-    + Under Scrollback Buffer check "Unlimited scrollback" (or set a larger number depending how much history you want to reserve)
+
+* Open iTerm Preferences
+* Go to the Profiles tab
+* Under Scrollback Buffer check "Unlimited scrollback" (or set a larger number depending how much history you want to reserve)
 
 You'll probably also want to set the login so that it doesn't ask for your username and password every time you open a new shell:
-    + In the profiles tab in preferences, select the "General" tab.
-    + Under the "Command" header, make sure "Login shell" is checked (by default it'll probably be Command: login -fp profile, you could also alter this command to pass credentials if you prefer)
-    + Under the "Working Directory" header, check "Home directory." I mostly do this so it loads my .bashrc file correctly when it runs from .bash_profile on the shell open.
+
+* In the profiles tab in preferences, select the "General" tab.
+* Under the "Command" header, make sure "Login shell" is checked (by default it'll probably be Command: login -fp profile, you could also alter this command to pass credentials if you prefer)
+* Under the "Working Directory" header, check "Home directory." I mostly do this so it loads my .bashrc file correctly when it runs from `.bash_profile` on the shell open.
 
 
 # Vim
